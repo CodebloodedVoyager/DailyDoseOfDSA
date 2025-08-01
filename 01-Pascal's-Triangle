@@ -23,3 +23,8 @@ class Solution {
         return res;
     }
 }
+
+
+/*
+Pascal’s Triangle is a triangular array where each number is the sum of the two numbers directly above it from the previous row. The triangle always starts with [1] at the top. For each subsequent row, the first and last elements are always 1, and each inner element is calculated as the sum of the two elements diagonally above it from the previous row. To generate it for numRows, we iterate from row 0 to numRows - 1, building each row using this rule and storing the result as a list of lists. This structure allows us to return the full triangle built up to the desired number of rows efficiently.
+*/
